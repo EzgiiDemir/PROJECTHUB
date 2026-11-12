@@ -1,0 +1,17 @@
+**/node_modules
+**/dist
+**/.next
+**/*.tsbuildinfo
+.data
+.tmp
+.runtime
+PROJECTHUB_RUNTIME
+*.log
+**/.env
+**/.env.*
+!.env.example
+!deploy/.env.production.example
+.git
+docs/prototype
+apps/web/test-results
+apps/web/playwright-report

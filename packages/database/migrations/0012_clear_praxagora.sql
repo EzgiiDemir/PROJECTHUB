@@ -1,0 +1,1 @@
+CREATE INDEX "jobs_org_fairness_idx" ON "jobs" USING btree ("queue","organization_id","started_at");
